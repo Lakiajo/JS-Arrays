@@ -1,7 +1,24 @@
 body {
     background-color: rgb(247, 113, 113);
+
 }
 
 .dinosaur {
     border: 2px solid salmon;
+}
+
+.classwork {
+    border: 2px solid rgb(70, 34, 52);
+    padding: 0px;
+    width: 375px;
+    margin: 8px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: rgb(133, 49, 60)
+    
+}
+#classwork {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
